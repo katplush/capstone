@@ -1,17 +1,18 @@
+
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <Navigation></Navigation>
+    <img alt="Sync logo" src="./assets/img/txt-only_edited_logo.jpg">
     <router-view/>
   </div>
 </template>
 
 <script>
-
-
+import Navigation from './components/Navigation'
 export default {
   name: 'app',
   components: {
-    
+    'Navigation': Navigation
   }
 }
 </script>

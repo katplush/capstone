@@ -1,8 +1,6 @@
 <template>
   <div class="hello">
-  <!-- Portfolio Section -->
     <h2>Portfolio Heading</h2>
-
     <div class="row">
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
@@ -71,7 +69,6 @@
         </div>
       </div>
     </div>
-    <!-- /.row -->
   </div>
 </template>
 
