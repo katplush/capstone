@@ -17,7 +17,7 @@ export default {
         {
           id: 0,
           text: 'Home',
-          page:'/HelloWorld'
+          page:'/'
         },
         {
           id: 1,
