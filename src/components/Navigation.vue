@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav>
+    <nav class="spacing">
       <router-link class="spacing" v-for="routes in links" 
       v-bind:key="routes.id"
       :to="`${routes.page}`">{{routes.text}}</router-link>
@@ -28,11 +28,6 @@ export default {
           id: 2,
           text: 'About Us',
           page:'/About'
-        },
-        {
-          id: 3,
-          text: 'Contact Us',
-          page:'/Contact'
         }
       ]
     }
@@ -41,6 +36,9 @@ export default {
 </script>
 <style>
 .spacing {
-  margin-right: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 30px;
+  color: black; 
+  font-size: 20px;
 }
 </style>

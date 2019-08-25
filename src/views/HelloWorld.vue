@@ -1,30 +1,16 @@
 <template>
-  <div id="helloworld">
-    <!-- Header -->
-    <header class="masthead d-flex">
-      <div class="container text-center my-auto">
-        <h1 class="mb-1"></h1>
-        <h3 class="mb-5">
-          <!-- <div class="focal">
-            <img src="../assets/img/kiera_cover.jpg" alt="dog">
-          </div> -->
-          <em>Picky dogs love us!</em>
-        </h3>
-      </div>
-      <div class="overlay"></div>
-    </header>
-    <section class="content-section bg-light" id="about">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-          <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-            <a href="https://unsplash.com/">Unsplash</a>!</p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">SHOP</a>
-        </div>
-      </div>
+  <div>
+    <div>
+      <b-img src="https://res.cloudinary.com/dlp1f5oxt/image/upload/v1566701832/IMG_Cover.jpg" fluid alt="Responsive image"></b-img>
+    </div> 
+    <div>
+    <b-card bg-variant="light" text-variant="dark" title="">
+    <b-card-text  id="shopUs">
+      Picky dogs love us!
+    </b-card-text>
+    <b-button size="lg" href="#" variant="dark">SHOP</b-button>
+    </b-card>
     </div>
-  </section>
   </div>
 </template>
 
@@ -39,8 +25,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+h3, h2 {
+  margin: 100px 0 0;
 }
 ul {
   list-style-type: none;
@@ -53,12 +39,15 @@ li {
 a {
   color: #42b983;
 }
-#helloworld {
-  background-image: url(../assets/img/kiera_cover.jpg)
-}
+#shopUs {
+  /* background-image: url(../assets/img/kiera_cover.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+  font-size: 30px;
+  margin-top: 50px;
+} 
 .btn {
   color: white;
+  margin: 50px;
 }
-
-
 </style>

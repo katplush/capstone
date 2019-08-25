@@ -2,7 +2,7 @@
 <template>
   <div id="app">
     <Navigation></Navigation>
-    <img alt="Sync logo" src="./assets/img/txt-only_edited_logo.jpg">
+    <img class="logo" alt="Sync logo" src="./assets/img/txt-only_edited_logo.jpg" width="250" height="auto">
     <router-view/>
   </div>
 </template>
@@ -19,11 +19,14 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 20px; 
+  margin: 20px 100px 50px 100px; 
 }
+.logo {
+  margin-bottom: 20px;
+} 
 </style>
