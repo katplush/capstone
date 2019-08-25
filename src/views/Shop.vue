@@ -1,7 +1,7 @@
 <template>
 <b-container fluid class="rounded-0">
   <div id="buy">
-  <b-card no-body class="overflow-hidden" style="max-width: 800px;">
+  <b-card no-body class="overflow-hidden" border-variant="light" style="max-width: 800px;">
     <b-row no-gutters>
       <b-col md="6">
         <b-card-img src="https://res.cloudinary.com/dlp1f5oxt/image/upload/v1566707685/IMG_Shop_Treat_rnlgem.jpg" class="rounded-0"></b-card-img>

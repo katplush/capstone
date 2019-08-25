@@ -4,15 +4,18 @@
     <Navigation></Navigation>
     <img class="logo" alt="Sync logo" src="./assets/img/txt-only_edited_logo.jpg" width="250" height="auto">
     <router-view/>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Navigation from './components/Navigation'
+import Footer from './components/Footer'
 export default {
   name: 'app',
   components: {
-    'Navigation': Navigation
+    'Navigation': Navigation,
+    'Footer': Footer
   }
 }
 </script>
@@ -24,7 +27,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin: 20px 100px 50px 100px; 
 }
 .logo {
   margin-bottom: 20px;

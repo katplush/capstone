@@ -4,11 +4,11 @@
       <b-img src="https://res.cloudinary.com/dlp1f5oxt/image/upload/v1566701832/IMG_Cover.jpg" fluid alt="Responsive image"></b-img>
     </div> 
     <div>
-    <b-card bg-variant="light" text-variant="dark" title="">
-    <b-card-text  id="shopUs">
-      Picky dogs love us!
-    </b-card-text>
-    <b-button size="lg" href="#" variant="dark">SHOP</b-button>
+    <b-card id="shopUs" border-variant="white" bg-variant="white" text-variant="dark" title="Picky dogs love us!">
+    <!-- <b-card-text  >
+      Check out our treats.
+    </b-card-text> -->
+    <b-button size="lg" to="/shop" variant="dark">SHOP</b-button>
     </b-card>
     </div>
   </div>
@@ -40,10 +40,6 @@ a {
   color: #42b983;
 }
 #shopUs {
-  /* background-image: url(../assets/img/kiera_cover.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%; */
-  font-size: 30px;
   margin-top: 50px;
 } 
 .btn {
