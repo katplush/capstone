@@ -2,7 +2,9 @@
 <template>
   <div id="app">
     <Navigation></Navigation>
-    <img class="logo" alt="Sync logo" src="./assets/img/txt-only_edited_logo.jpg" width="250" height="auto">
+    <div>
+      <b-img center src="https://res.cloudinary.com/dlp1f5oxt/image/upload/c_scale,w_150/v1566871055/2019-08-26_18-56-04_rgpguo.png" fluid alt="Center image" img-alt="logo" style="margin: 30px"></b-img>
+    </div>
     <router-view/>
     <Footer></Footer>
   </div>
@@ -29,6 +31,6 @@ export default {
   color: #2c3e50;
 }
 .logo {
-  margin-bottom: 20px;
+  margin: 50px;
 } 
 </style>

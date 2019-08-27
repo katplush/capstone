@@ -1,12 +1,10 @@
 <template>
   <div>
-  <div>
-    <b-card border-variant="white" bg-variant="white" text-variant="dark" title="Contact Us">
-    <b-card-text>
-      Info@syncpetsupplies.com
-    </b-card-text>
-    </b-card>
-  </div>
+    <div>
+      <b-card border-variant="white" bg-variant="light" text-variant="dark" title="Contact Us" style="padding: 50px;">
+        <b-card-text>Info@syncpetsupplies.com</b-card-text>
+      </b-card>
+    </div>
    <footer class="footer">
     <div class="container">
       <div class="row align-items-center">
