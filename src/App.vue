@@ -3,7 +3,7 @@
   <div id="app">
     <Navigation></Navigation>
     <div>
-      <b-img center src="https://res.cloudinary.com/dlp1f5oxt/image/upload/c_scale,w_150/v1566871055/2019-08-26_18-56-04_rgpguo.png" fluid alt="Center image" img-alt="logo" style="margin: 30px"></b-img>
+      <router-link v-bind:to="'/'"><img src="https://res.cloudinary.com/dlp1f5oxt/image/upload/c_scale,w_150/v1566871055/2019-08-26_18-56-04_rgpguo.png" fluid alt="Center image" img-alt="logo" style="margin: 30px"></router-link>
     </div>
     <router-view/>
     <Footer></Footer>
@@ -14,18 +14,16 @@
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
 
-import Vue from 'vue'
-import VueAnalytics from 'vue-analytics'
-
-Vue.use(VueAnalytics, {
-  id: 'UA-XXX-X'
-})
-
 export default {
   name: 'app',
   components: {
     'Navigation': Navigation,
     'Footer': Footer
+  },
+  methods: {
+    track () {
+      this.$ga.page('/')
+    }
   }
 }
 </script>

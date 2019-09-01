@@ -7,7 +7,8 @@ import router from './router'
 import VueAnalytics from 'vue-analytics'
 
 Vue.use(VueAnalytics, {
-  id: 'UA-146783045-1'
+  id: 'UA-146783045-1',
+  checkDuplicatedScript: true
 })
 
 Vue.use(BootstrapVue)

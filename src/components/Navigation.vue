@@ -1,8 +1,10 @@
 <template>
   <nav>
     <b-navbar toggleable="lg" variant="light" type="light">
-      <b-navbar-brand href="/HelloWorld">
+      <b-navbar-brand> 
+        <router-link v-bind:to="'/'">
         <img src="https://res.cloudinary.com/dlp1f5oxt/image/upload/c_scale,w_105/v1566871056/txt-only_zobjvr.png" alt="logo">
+        </router-link>
       </b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>

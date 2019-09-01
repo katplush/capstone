@@ -25,7 +25,7 @@
             </li>
             <li class="list-inline-item">
               <a href="#">
-                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-instagram"></i>
               </a>
             </li>
           </ul>
