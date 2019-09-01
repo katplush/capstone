@@ -13,6 +13,14 @@
 <script>
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
+
+import Vue from 'vue'
+import VueAnalytics from 'vue-analytics'
+
+Vue.use(VueAnalytics, {
+  id: 'UA-XXX-X'
+})
+
 export default {
   name: 'app',
   components: {
